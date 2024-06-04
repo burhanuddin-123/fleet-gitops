@@ -5,6 +5,8 @@
 controls: # Controls added to "No team"
 queries:
   - path: ./lib/collect-fleetd-update-channels.queries.yml
+  - path: ./lib/collect-usb-devices.queries.yml
+  - path: ./lib/windows-device-health.policies.yml
 policies:
 agent_options:
   path: ./lib/agent-options.yml
